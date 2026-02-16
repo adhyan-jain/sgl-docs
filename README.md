@@ -1,55 +1,118 @@
-# Mintlify Starter Kit
+# SGLang Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+The official documentation and cookbook for [SGLang](https://github.com/sgl-project/sglang) — a high-performance serving framework for large language models and vision-language models.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+- **Docs**: Getting started guides, installation, and reference
+- **Cookbook**: Battle-tested recipes for deploying specific models (Qwen, DeepSeek, Llama, GLM, etc.) on various hardware
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## Project structure
 
-## AI-assisted writing
+```
+.
+├── docs.json              # Site configuration (navigation, theme, metadata)
+├── index.mdx              # Homepage
+├── docs/                  # Documentation pages
+│   └── get-started/
+│       └── install.mdx    # Installation guide
+└── cookbook/               # Model deployment recipes
+    ├── intro.mdx           # Cookbook overview and recipe index
+    └── autoregressive/     # Autoregressive model recipes
+        └── Qwen/
+            └── Qwen3.5.mdx
+```
 
-Set up your AI coding tool to work with Mintlify:
+Pages are `.mdx` files with YAML frontmatter. Navigation is defined in `docs.json`.
+
+## Local development
+
+### Prerequisites
+
+- Node.js >= 20
+
+### Setup
 
 ```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
+# Install the CLI
 npm i -g mint
-```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
+# Start the dev server (with hot reload)
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+Preview at `http://localhost:3000`.
 
-## Publishing changes
+### Useful commands
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+```bash
+mint dev            # Start local preview server
+mint broken-links   # Check for broken links
+mint update         # Update the CLI
+```
 
-## Need help?
+## Contributing
 
-### Troubleshooting
+We welcome contributions! Whether you want to add a recipe for a new model, improve existing docs, or fix a typo — PRs are appreciated.
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+### Quick edit (GitHub)
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+1. Navigate to the file you want to edit on GitHub
+2. Click the pencil icon to edit
+3. Submit a pull request
+
+### Local development workflow
+
+```bash
+# 1. Fork and clone the repo
+git clone https://github.com/<YOUR_USERNAME>/sgl-docs.git
+cd sgl-docs
+
+# 2. Create a branch
+git checkout -b my-changes
+
+# 3. Start the dev server and make your changes
+mint dev
+
+# 4. Verify links aren't broken
+mint broken-links
+
+# 5. Commit and push
+git add <files>
+git commit -m "docs: describe your change"
+git push origin my-changes
+
+# 6. Open a pull request on GitHub
+```
+
+### Adding a new cookbook recipe
+
+1. Create a new `.mdx` file under `cookbook/` following the existing directory structure (e.g., `cookbook/autoregressive/<Vendor>/<Model>.mdx`)
+2. Use an existing recipe like `cookbook/autoregressive/Qwen/Qwen3.5.mdx` as a template
+3. Add your page to the navigation in `docs.json`
+4. Each recipe should include:
+   - Model introduction and key specs
+   - Installation / environment setup
+   - Deployment configuration (with hardware recommendations)
+   - Usage examples (basic + advanced)
+   - Benchmarks (if available)
+
+### Writing guidelines
+
+- Use active voice: "Run the command" not "The command should be run"
+- Address the reader as "you"
+- Keep sentences concise — one idea per sentence
+- Lead with the goal, then the steps
+- Use consistent terminology
+- Include concrete examples and code snippets
+
+## Community
+
+- [GitHub](https://github.com/sgl-project/sglang)
+- [Slack](https://slack.sglang.io/)
+- [Discord](https://discord.gg/4ugb2t6YY2)
+- [X / Twitter](https://x.com/lmsysorg)
+- [LinkedIn](https://www.linkedin.com/company/sgl-project/)
+
+## License
+
+Apache License 2.0 — see the [LICENSE](LICENSE) for details.
