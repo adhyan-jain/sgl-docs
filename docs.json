@@ -19,6 +19,12 @@
               "index",
               "docs/get-started/install"
             ]
+          },
+          {
+            "group": "Hardware Platforms",
+            "pages": [
+              "docs/hardware-platforms/amd-gpus"
+            ]
           }
         ]
       },
@@ -61,15 +67,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
