@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T02:43:30.985419Z",
+  "generatedAt": "2026-07-07T14:23:02.913975Z",
   "sourceRepo": "https://github.com/lm-sys/lm-sys.github.io/tree/main/blog",
   "keywords": [
     "sglang",
@@ -17,7 +17,7 @@
       "slug": "2026-07-06-dspark-sglang",
       "title": "DSpark in SGLang: Speculative Decoding with Confidence-Driven, Variable-Length Verification",
       "url": "https://lmsys.org/blog/2026-07-06-dspark-sglang/",
-      "image": "https://lmsys.org/images/blog/dspark-sglang/frontier.png",
+      "image": "https://lmsys.org/images/blog/dspark-sglang/perf-compare.png",
       "date": "July 6, 2026"
     },
     {
