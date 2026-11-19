@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T04:54:23.639047Z",
+  "generatedAt": "2026-11-19T19:53:51.223322Z",
   "sourceRepo": "https://github.com/lm-sys/lm-sys.github.io/tree/main/blog",
   "keywords": [
     "sglang",
@@ -10,50 +10,50 @@
     "sglang diffusion"
   ],
   "maxCards": 6,
-  "totalBlogFilesScanned": 137,
+  "totalBlogFilesScanned": 148,
   "cardsPublished": 6,
   "posts": [
     {
-      "slug": "2026-11-02-hicache-distributed-serving",
-      "title": "HiCache Across Multi-Parallelism and Distributed Serving",
-      "url": "https://lmsys.org/blog/2026-11-02-hicache-distributed-serving/",
-      "image": "https://lmsys.org/images/blog/hicache-distributed-serving/cover.jpg",
-      "date": "November 2, 2026"
+      "slug": "2026-11-18-humming-sglang",
+      "title": "Humming in SGLang: Flexible Low-Bit Kernels for Efficient MoE Serving",
+      "url": "https://lmsys.org/blog/2026-11-18-humming-sglang/",
+      "image": "https://lmsys.org/images/blog/humming-sglang/humming_sgl_preview.png",
+      "date": "November 18, 2026"
     },
     {
-      "slug": "2026-10-26-cf-security",
-      "title": "SGLang security update: improving request isolation",
-      "url": "https://lmsys.org/blog/2026-10-26-cf-security/",
-      "image": "https://lmsys.org/images/blog/cf-security/kv-cache-race.png",
-      "date": "October 26, 2026"
+      "slug": "2026-11-17-sglang-summit-recap",
+      "title": "SGLang Summit 2026 Recap: Building Open AI Infrastructure Together",
+      "url": "https://lmsys.org/blog/2026-11-17-sglang-summit-recap/",
+      "image": "https://lmsys.org/images/blog/sglang-summit-2026/summit-opening-hall.webp",
+      "date": "November 17, 2026"
     },
     {
-      "slug": "2026-10-25-minite",
-      "title": "miniTE Technical Report: Stable and Efficient Reinforcement Learning with Native NVFP4",
-      "url": "https://lmsys.org/blog/2026-10-25-minite/",
-      "image": "https://lmsys.org/images/blog/minite/deterministic.png",
-      "date": "October 25, 2026"
+      "slug": "2026-11-13-sglang-nvidia-nim",
+      "title": "SGLang and NVIDIA NIM: Advancing Enterprise Inference Together",
+      "url": "https://lmsys.org/blog/2026-11-13-sglang-nvidia-nim/",
+      "image": "https://lmsys.org/images/blog/sglang-nvidia-nim/nim-on-sglang.png",
+      "date": "November 13, 2026"
     },
     {
-      "slug": "2026-10-24-dsv41-deepinfer",
-      "title": "More Than DeepInfer: What SGLang Delivers",
-      "url": "https://lmsys.org/blog/2026-10-24-dsv41-deepinfer/",
-      "image": "https://lmsys.org/images/blog/dsv41_deepinfer/cover.jpg",
-      "date": "October 24, 2026"
+      "slug": "2026-11-13-miles-vera-sandboxes",
+      "title": "RadixArk Miles runs agentic RL training on NVIDIA Vera CPUs: faster sandboxes, faster training",
+      "url": "https://lmsys.org/blog/2026-11-13-miles-vera-sandboxes/",
+      "image": "https://lmsys.org/images/blog/miles-vera-sandboxes/preview.png",
+      "date": "November 13, 2026"
     },
     {
-      "slug": "2026-10-22-sglang-trainium-beta",
-      "title": "Announcing the SGLang AWS Trainium Plugin Beta",
-      "url": "https://lmsys.org/blog/2026-10-22-sglang-trainium-beta/",
-      "image": "https://lmsys.org/images/blog/2026-10-22-sglang-trainium-beta/cover.png",
-      "date": "October 22, 2026"
+      "slug": "2026-11-12-sglang-neuron-v0.1.0",
+      "title": "SGLang-Neuron v0.1.0: SGLang's Serving Stack on AWS Trainium",
+      "url": "https://lmsys.org/blog/2026-11-12-sglang-neuron-v0.1.0/",
+      "image": "https://lmsys.org/images/blog/sglang-neuron-v0.1.0/cover.webp",
+      "date": "November 12, 2026"
     },
     {
-      "slug": "2026-10-22-miles-mi355x-agentic-rl",
-      "title": "Training SWE agents with Miles on MI355X: taming long-tail trajectories and complex sandbox coordination",
-      "url": "https://lmsys.org/blog/2026-10-22-miles-mi355x-agentic-rl/",
-      "image": "https://lmsys.org/images/blog/miles-mi355x-agentic-rl/architecture.png",
-      "date": "October 29, 2026"
+      "slug": "2026-11-12-sglang-consortium",
+      "title": "LMSYS Org Launches SGLang Consortium with NVIDIA, AMD, Intel, Google, Meta, Thinking Machines Lab, Cloudflare, Modal and RadixArk to Advance Open-Source AI Inference",
+      "url": "https://lmsys.org/blog/2026-11-12-sglang-consortium/",
+      "image": "https://lmsys.org/images/blog/sglang-consortium/consortium-2026-11-16.jpg",
+      "date": "November 12, 2026"
     }
   ]
 }
